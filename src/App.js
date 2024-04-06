@@ -23,7 +23,7 @@ const App = () => {
           <h1 className='title'>We Crush Your Competitors, Goals, And Sales Records - Without The B.S.</h1>
           <Button title={"GET FREE CONSULTATION"}/>
         </div>
-    </div>
+      </div>
     <div className='box-container'>
       <div className='box'>
         <div className='pic'>

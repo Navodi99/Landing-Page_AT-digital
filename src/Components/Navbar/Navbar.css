@@ -89,6 +89,44 @@ nav ul li{
        
     }
 } 
-/* @media screen and (min-width: 375px) {
-  
-} */
+@media screen and (max-width: 375px) {
+    nav{
+        width: 100%;
+        background: #6B3CC9;
+        color: #fff;
+        padding: 10px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 10;
+    }
+    .inner{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    
+       
+        
+    }
+    .logo{
+        width: 35px;
+        /* margin-left: 50px; */
+       
+    }
+    .company-name{
+        font-family: "Lakki Reddy", serif;
+        font-size: 22px;
+        padding-top: 10px;
+        
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 5px 20px;
+        font-size: 14px;
+        /* margin-right: 50px; */
+    }
+}

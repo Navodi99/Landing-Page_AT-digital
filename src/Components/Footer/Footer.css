@@ -25,12 +25,15 @@
 }
 .about-container{
     padding-left: 30px;
-    
+    border: 1px solid red;
     padding-top: 10px;
+    width: 50%;
+    
 }
 .about{
     font-size: 14px;
     padding-bottom: 30px;
+    
 }
 .inner{
     display: flex;
@@ -80,4 +83,133 @@ p{
     width: 50%;
    margin-right: auto;
    margin-left: auto;
+}
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 0; */
+    padding-left: 30px;
+    border: 1px solid red;
+
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        background-color: #6B3CC9;
+        margin-top: 50px;
+        /* display: flex;
+        align-items: center;
+        justify-content:center; */
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .logo{
+        width: 35px;
+        /* margin-left: 50px; */
+       
+    }
+    .company-name{
+        font-family: "Lakki Reddy", serif;
+        font-size: 22px;
+        padding-top: 10px;
+        
+        color: #ffffff;
+        
+    }
+    .about-container{
+        padding-left: 30px;
+        
+        padding-top: 10px;
+    }
+    .about{
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+    .inner{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        padding-left: 30px;
+        
+       
+        
+    }
+    .footer-links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: left;
+        
+        
+        /* margin-bottom: 30px; */
+    }
+    .link-title{
+        padding-bottom: 10px;
+        align-items: left;
+    }
+    .footer-content{
+        
+        /* margin: 10px; */
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        color: #ffffff;
+        /* border: 1px solid red; */
+        margin: 20px 50px;
+        /* margin-top: 20px; */
+    }
+    p{
+        font-size: 14px;
+        padding: 2px 0;
+    }
+    .copyright{
+        text-align: center;
+        color: #ffffff;
+        padding: 10px 0px;
+    }
+    .h{
+        width: 70%;
+       margin-right: auto;
+       margin-left: auto;
+    }
+    .footer-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 20px;
+        /* border: 1px solid black; */
+    }
+}
+@media screen and (max-width:375px){
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0; border: 1px solid red;
+        
+        
+        /* border: 1px solid black; */
+    }
+    .footer-content{
+        
+        /* margin: 10px; */
+        display: flex;
+        /* justify-content: flex-start; */
+        flex-direction: column;
+        color: #ffffff;
+        /* border: 1px solid red; */
+        margin: 15px 30px;
+        /* margin-top: 20px; */
+    }
+  
+  
 }
