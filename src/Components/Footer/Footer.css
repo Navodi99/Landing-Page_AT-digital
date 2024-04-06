@@ -1,0 +1,83 @@
+.footer{
+    background-color: #6B3CC9;
+    margin-top: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content:center; */
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.logo{
+    width: 35px;
+    /* margin-left: 50px; */
+   
+}
+.company-name{
+    font-family: "Lakki Reddy", serif;
+    font-size: 22px;
+    padding-top: 10px;
+    
+    color: #ffffff;
+    
+}
+.about-container{
+    padding-left: 30px;
+    
+    padding-top: 10px;
+}
+.about{
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+.inner{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding-left: 30px;
+    
+   
+    
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    
+    
+    /* margin-bottom: 30px; */
+}
+.link-title{
+    padding-bottom: 10px;
+}
+.footer-content{
+    
+    /* margin: 10px; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #ffffff;
+    /* border: 1px solid red; */
+    margin: 20px 50px;
+    /* margin-top: 20px; */
+}
+p{
+    font-size: 14px;
+    padding: 2px 0;
+}
+.copyright{
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0px;
+}
+.h{
+    width: 50%;
+   margin-right: auto;
+   margin-left: auto;
+}

@@ -1,0 +1,31 @@
+.ques-topic{
+    color:  #6B3CC9;
+    
+    text-align: center;
+}
+.outer{
+    
+    width: 50%;
+    margin: 20px 0px;
+   
+}
+.outer3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:768px){
+    .outer3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .outer{
+    
+        width: 70%;
+        margin: 20px 0px;
+       
+    }
+}
