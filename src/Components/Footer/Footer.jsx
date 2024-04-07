@@ -16,33 +16,21 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='footer-main'>
-                <div className='footer-content'>
+                <div className='footer-content1'>
                     <h4 className='link-title'>Our Technologies</h4>
                     <p>ReactJS</p>
                     <p>Gatsby</p>
                     <p>NextJS</p>
                     <p>NodeJS</p>
                 </div>
-                <div className='footer-content'>
+                <div className='footer-content1'>
                     <h4 className='link-title'> Our Services</h4>
                     <p>Social media Marketing</p>
                     <p>Web & Mobile App<br/> Development</p>
                     <p>Data & Analytics</p>
                 </div>
                 </div>
-                {/* <div className='footer-content'>
-                    <h4 className='link-title'>Our Technologies</h4>
-                    <p>ReactJS</p>
-                    <p>Gatsby</p>
-                    <p>NextJS</p>
-                    <p>NodeJS</p>
-                </div>
-                <div className='footer-content'>
-                    <h4 className='link-title'> Our Services</h4>
-                    <p>Social media Marketing</p>
-                    <p>Web & Mobile App<br/> Development</p>
-                    <p>Data & Analytics</p>
-                </div> */}
+                
             </div>
             <hr className='h'/>
             <div className='footer-below'>
